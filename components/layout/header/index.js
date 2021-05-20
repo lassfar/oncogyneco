@@ -21,7 +21,7 @@ const AppHeader = () => {
 
   return (
     <nav className="flex items-center flex-wrap justify-end bg-primary shadow-sm border-b-2">
-      <div className="xl:absolute lg:absolute md:flex md:justify-center top-0 left-6 z-50 xl:bg-white border-b-4 border-fourth">
+      <div className="xl:absolute lg:absolute md:flex md:justify-center top-0 left-6 z-50 bg-white border-b-4 border-fourth">
         <Image src="/images/logo.svg" className="object-contain bg-transparent" width="auto" height="180" alt="OncoGyneco CHU CASA LOGO" />
       </div>
 
@@ -29,8 +29,8 @@ const AppHeader = () => {
         {links.map((item, idx) => (
           <div className="px-6 py-6" key={idx}>
             <Link href={item.link} key={idx}>
-              <a className={`border-b-4 text-white hover:border-fourth hover:text-fourth-dark ${pathName === item.link ? 'border-fourth text-fourth' : 'border-transparent'} transition delay-100 rounded px-4 py-6`}>
-                {item.text}
+              <a className={`uppercase border-b-4 text-white hover:border-fourth hover:text-fourth-dark ${pathName === item.link ? 'border-fourth text-fourth' : 'border-transparent'} transition delay-100 rounded px-4 py-6`}>
+                <small>{item.text}</small>
               </a>
             </Link>
           </div>
