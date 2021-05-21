@@ -4,10 +4,10 @@ import * as bsIcon from 'react-icons/bs'
 
 const NewsCard = ({ item }) => {
   return (
-    <div className="flex flex-col xl:w-64 lg:w-64 md:w-64 sm:w-56 w-full flex-auto justify-between border-b-4 border-primary mx-4 mb-8">
-      <div className="h-48 w-full bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url('/images/common/4.jpg')`}}>
+    <div className="flex flex-col xl:w-64 lg:w-64 md:w-64 sm:w-56 w-full flex-auto justify-between rounded-b-md shadow-xl bg-gray-50 mx-4 mb-8">
+      <div className="h-48 w-full bg-cover bg-center bg-no-repeat rounded-t-md" style={{backgroundImage: `url('/images/common/4.jpg')`}}>
       </div>
-      <div className="w-full flex-col my-4">
+      <div className="w-full flex-col px-4 my-4">
         <h3 className="text-2xl font-bold text-primary uppercase mb-4">
           {item.title || '--'}
         </h3>

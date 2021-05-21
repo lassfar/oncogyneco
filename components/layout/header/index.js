@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import DynamicIcon from './../../UI/DynamicIcon';
+import * as cgIcon from 'react-icons/cg'
+import Button from './../../UI/Button';
 
 const AppHeader = () => {
   const router = useRouter()
@@ -20,17 +23,21 @@ const AppHeader = () => {
   ]);
 
   return (
-    <nav className="flex items-center flex-wrap justify-end bg-primary shadow-sm border-b-2">
-      <div className="xl:absolute lg:absolute md:flex md:justify-center top-0 left-6 z-50 bg-white border-b-4 border-fourth">
-        <Image src="/images/logo.svg" className="object-contain bg-transparent" width="auto" height="180" alt="OncoGyneco CHU CASA LOGO" />
+    <nav className="flex items-center flex-wrap xl:justify-end lg:justify-end bg-primary shadow-sm border-b-2 px-6">
+      
+      <div className="flex justify-between items-center xl:absolute lg:absolute xl:w-2/12 lg:w-2/12 w-full xl:top-0 lg:top-0 xl:left-6 lg:left-6 xl:pr-0 lg:pr-0 pr-6 z-50 bg-white border-b-4 border-fourth">
+        <Image src="/images/logo.svg" className="object-contain bg-transparent inline-flex" width="auto" height="180" alt="OncoGyneco CHU CASA LOGO" />
+        <div className="xl:hidden lg:hidden flex bottom-0 right-6">
+          <Button iconName={cgIcon.CgMenu} ringColor="secondary" addClass="bg-secondary text-white" />
+        </div>
       </div>
 
-      <div className="flex items-center justify-center px-6">
+      <div className="xl:flex lg:flex hidden items-center justify-center px-2">
         {links.map((item, idx) => (
-          <div className="px-6 py-6" key={idx}>
-            <Link href={item.link} key={idx}>
+          <div className="px-2 py-6" key={idx}>
+            <Link href={item.link}>
               <a className={`uppercase border-b-4 text-white hover:border-fourth hover:text-fourth-dark ${pathName === item.link ? 'border-fourth text-fourth' : 'border-transparent'} transition delay-100 rounded px-4 py-6`}>
-                <small>{item.text}</small>
+                {item.text}
               </a>
             </Link>
           </div>

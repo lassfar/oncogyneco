@@ -5,7 +5,7 @@ import Button from './../../UI/Button';
 const Jumbo = () => {
   return (
     <div className="relative w-100 h-4/6 bg-no-repeat bg-center bg-cover p-6" style={{backgroundImage: "url('/images/common/jumbo-cover.jpg')", height: '90vh'}}>
-      <div className="flex min-w-full h-full bg-black bg-opacity-40 py-8">
+      <div className="flex min-w-full h-full bg-black bg-opacity-40 backdrop-filter backdrop-blur-sm py-8">
 
         <div className="flex items-center w-full h-full text-white xl:p-16 lg:p-12 p-6">
           <div className="xl:w-4/14 lg:w-4/12 xl:inline-flex lg:inline-flex md:hidden sm:hidden">
