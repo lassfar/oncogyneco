@@ -3,7 +3,7 @@
 
 const SectionLayout = ({children, title, subtitle}) => {
   return (
-    <section className="w-full xl:p-14 lg:p-12 md:p-10 sm:p-8 p-8 my-6">
+    <section className="relative w-full xl:p-14 lg:p-12 md:p-10 sm:p-8 p-8">
       <div className="w-full mb-10">
         {title && <h1 className="xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-bold uppercase text-secondary mb-6">{title}</h1>}
         {subtitle && <h3 className="xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl text-xl font-bold uppercase text-secondary mb-6">{subtitle}</h3>}

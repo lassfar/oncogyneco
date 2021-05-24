@@ -17,7 +17,7 @@ const AppHeader = () => {
   const [links] = useState([
     { link: '/', text: 'Accueil' },
     { link: '/presentation', text: 'Qui somme-nous' },
-    { link: '/our-specialities', text: 'Nos Spécialités' },
+    { link: '/speciality', text: 'Nos Spécialités' },
     { link: '/news', text: 'Actualités' },
     // { link: '/contacts', text: 'Contact' },
   ]);
@@ -36,15 +36,24 @@ const AppHeader = () => {
         {links.map((item, idx) => (
           <div className="px-2 py-6" key={idx}>
             <Link href={item.link}>
-              <a className={`uppercase border-b-4 text-white hover:border-fourth hover:text-fourth-dark ${pathName === item.link ? 'border-fourth text-fourth' : 'border-transparent'} transition delay-100 rounded px-4 py-6`}>
+              <a className={`uppercase border-b-4 text-white hover:text-fourth-dark ${pathName === item.link ? 'border-fourth text-fourth' : 'border-transparent'} transition delay-100 rounded px-4 py-6`}>
                 {item.text}
               </a>
             </Link>
           </div>
         ))}
-        <button className="bg-secondary text-white transition delay-100 focus:ring-2 focus:ring-secondary focus:ring-opacity-50 rounded px-4 py-2" >
-          Contact
-        </button>
+        <Link href="/contact">
+          <a>
+            <Button
+              title="Contact"
+              bgColor="bg-secondary"
+              textColor="text-white"
+              ringColor="ring-secondary-light"
+              iconName={cgIcon.CgPhone}
+              addClass={pathName === '/contact' && 'border-2 border-fourth'}
+            />
+          </a>
+        </Link>
       </div>
 
     </nav>

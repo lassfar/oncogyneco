@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import * as cgIcon from 'react-icons/cg'
 import Button from './../../UI/Button';
 
@@ -13,14 +14,18 @@ const SpecialityCard = ({ item }) => {
           {item.title}
         </h3>
         <p className="mb-6">{item.desc}</p>
-        <Button
-          title="Lire plus"
-          bgColor="bg-secondary"
-          textColor="text-white"
-          ringColor="ring-secondary-light"
-          iconName={cgIcon.CgMore}
-          addClass="ml-auto"
-        />
+        <Link href="/speciality">
+          <a>
+            <Button
+              title="Lire plus"
+              bgColor="bg-secondary"
+              textColor="text-white"
+              ringColor="ring-secondary-light"
+              iconName={cgIcon.CgMore}
+              addClass="ml-auto"
+            />
+          </a>
+        </Link>
       </div>
     </div>
   )

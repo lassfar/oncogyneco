@@ -6,7 +6,7 @@ const PresentDetails = () => {
   return (
     <div className="flex flex-row w-full py-16 xl:px-14 lg:px-14 md:px-10 px-8">
       {/* ARTICLE SECTION */}
-      <article className="xl:w-8/12 lg:w-8/12 w-full xl:mr-10 lg:mr-8">
+      <article className="xl:w-8/12 lg:w-8/12 w-full xl:mr-24 lg:mr-20">
         <Title>Le Centre Mohammed VI de Traitement des Cancers</Title>
         <Paragraph>
           Le Centre Mohammed VI pour le traitement des cancers au centre hospitalier
@@ -48,9 +48,27 @@ const PresentDetails = () => {
       </article>
 
       {/* imgs section */}
-      <div className="xl:w-4/12 lg:w-4/12 xl:flex lg:flex flex-wrap hidden">
-        <img src="/images/common/6.jpg" className="max-h-80 object-cover rounded shadow-xl border-2 p-4 mb-6" alt="Mohammed VI & Lalla Salma" />
-        <img src="/images/common/10.jpg" className="max-h-80 object-cover rounded shadow-xl border-2 p-4 mb-6" alt="Mohammed VI & Lalla Salma & Equipe CHU Ibn Rochd" />
+      <div className="relative xl:w-4/12 lg:w-4/12 xl:flex lg:flex flex-wrap hidden">
+        <div className="relative">
+          <div className="z-30 absolute top-0 left-0 transform skew-y-6 -skew-x-6 bg-primary bg-opacity-40 w-full h-64 rounded-3xl shadow-lg">
+            {/* BG EFFECT */}
+          </div>
+          <div className="z-30 absolute top-0 left-0 transform skew-y-12 -skew-x-12 bg-secondary bg-opacity-40 w-full h-64 rounded-3xl shadow-lg">
+            {/* BG EFFECT */}
+          </div>
+          <img src="/images/common/6.jpg" className="relative z-50 max-h-80 object-cover rounded-3xl shadow-xl bg-white mb-6" alt="Mohammed VI & Lalla Salma" />
+        </div>
+
+        <div className="relative">
+
+          <div className="z-30 absolute top-0 left-0 transform skew-y-6 -skew-x-6 bg-primary bg-opacity-40 w-full h-80 rounded-3xl shadow-lg">
+            {/* BG EFFECT */}
+          </div>
+          <div className="z-30 absolute top-0 left-0 transform skew-y-12 -skew-x-12 bg-secondary bg-opacity-40 w-full h-80 rounded-3xl shadow-lg">
+            {/* BG EFFECT */}
+          </div>
+          <img src="/images/common/10.jpg" className="relative z-50 max-h-80 object-cover rounded-3xl shadow-2xl mb-6" alt="Mohammed VI & Lalla Salma & Equipe CHU Ibn Rochd" />
+        </div>
       </div>
 
     </div>

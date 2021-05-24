@@ -1,8 +1,9 @@
 import DynamicIcon from "../../UI/DynamicIcon"
 import * as cgIcon from 'react-icons/cg'
-import Button from './../../UI/Button';
+import Button from '../../UI/Button';
+import Link from "next/link";
 
-const Jumbo = () => {
+const HomeJumbo = () => {
   return (
     <div className="relative w-100 h-4/6 bg-no-repeat bg-center bg-cover p-6" style={{backgroundImage: "url('/images/common/jumbo-cover.jpg')", height: '90vh'}}>
       <div className="flex min-w-full h-full bg-black bg-opacity-40 backdrop-filter backdrop-blur-sm py-8">
@@ -22,14 +23,19 @@ const Jumbo = () => {
               Le service onco-gynécologie du Centre Mohamed IV pour le traitement du cancer du CHU ibn rochd
               offre une prise en charge globale médicale et chirurgicale de la plupart des pathologies gynécologiques et mammaire.
             </p>
-            <Button
-              title="Lire plus"
-              bgColor="bg-secondary"
-              textColor="text-white"
-              ringColor="ring-secondary-light"
-              iconName={cgIcon.CgMore}
-              addClass=""
-            />
+            <Link href="/presentation">
+              <a>
+                <Button
+                  title="Lire plus"
+                  bgColor="bg-secondary"
+                  textColor="text-white"
+                  ringColor="ring-secondary-light"
+                  iconName={cgIcon.CgMore}
+                  addClass=""
+                />
+              </a>
+            </Link>
+
           </div>
 
         </div>
@@ -38,4 +44,4 @@ const Jumbo = () => {
   )
 }
 
-export default Jumbo
+export default HomeJumbo

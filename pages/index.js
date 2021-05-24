@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import AppLayout from './../components/layout/AppLayout'
-import Jumbo from '../components/views/home/Jumbo'
+import HomeJumbo from '../components/views/home/HomeJumbo'
 import SpecialitySection from '../components/views/speciality/SpecialitySection'
 import CareSection from '../components/views/cares/CareSection'
 import PartnerSection from '../components/views/partner/PartnerSection'
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <AppLayout>
-        <Jumbo />
+        <HomeJumbo />
         <SpecialitySection />
         <CareSection />
         <PartnerSection />
