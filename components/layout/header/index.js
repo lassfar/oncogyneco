@@ -5,10 +5,12 @@ import { useRouter } from 'next/router'
 import DynamicIcon from './../../UI/DynamicIcon';
 import * as cgIcon from 'react-icons/cg'
 import Button from './../../UI/Button';
+import HeaderMobile from './HeaderMobile';
 
 const AppHeader = () => {
   const router = useRouter()
   const [pathName, setPathName] = useState("")
+  const [isMenuHidden, setMenuHidden] = useState(true)
 
   useEffect(() => {
     setPathName(router.pathname)
@@ -21,15 +23,26 @@ const AppHeader = () => {
     { link: '/news', text: 'Actualités' },
     // { link: '/contacts', text: 'Contact' },
   ]);
+  
+
+  const openMenu = () => {
+    let menu = document.getElementById('mobileMenu');
+    menu.classList.remove('hidden');
+  }
 
   return (
-    <nav className="flex items-center flex-wrap xl:justify-end lg:justify-end bg-primary shadow-sm px-6">
+    <nav className="relative flex items-center flex-wrap xl:justify-end lg:justify-end bg-primary shadow-sm px-6">
       
+
       <div className="flex justify-between items-center xl:absolute lg:absolute xl:w-2/12 lg:w-2/12 w-full xl:top-0 lg:top-0 xl:left-6 lg:left-6 xl:pr-0 lg:pr-0 pr-6 z-50 bg-white border-b-4 border-fourth xl:shadow lg:shadow">
         <Image src="/images/logo.svg" className="object-contain bg-transparent inline-flex" width="auto" height="180" alt="OncoGyneco CHU CASA LOGO" />
         <div className="xl:hidden lg:hidden flex bottom-0 right-6">
-          <Button iconName={cgIcon.CgMenu} ringColor="secondary" addClass="bg-secondary text-white" />
+          <a href="#" onClick={openMenu}>
+            <Button iconName={cgIcon.CgMenu} ringColor="secondary" addClass="bg-secondary text-white" />
+          </a>
         </div>
+        
+        <HeaderMobile isHidden="" />
       </div>
 
       <div className="xl:flex lg:flex hidden items-center justify-center px-2">
@@ -54,6 +67,7 @@ const AppHeader = () => {
             />
           </a>
         </Link>
+
       </div>
 
     </nav>
