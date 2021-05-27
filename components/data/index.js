@@ -78,6 +78,7 @@ export const careTypeList = [
   },
 ];
 
+
 export const partnerList = [
   { imgUrl: '/images/partners/1.jpg', alt: 'Fondation Lalla Salma partenaire' },
   { imgUrl: '/images/partners/2.png', alt: 'CHU IBN ROCHD partenaire' },
