@@ -24,6 +24,28 @@ module.exports = {
           DEFAULT: '#fdcd12',
           dark: '#C9A000'
         }
+      },
+      keyframes: {
+        'slide-in-menu': {
+          '0%': {
+            transform: 'translate(-100%)'
+          },
+          '100%': {
+            transform: 'translate(0%)'
+          }
+        },
+        'slide-out-menu': {
+          '0%': {
+            transform: 'translate(0%)'
+          },
+          '100%': {
+            transform: 'translateX(-100%)'
+          }
+        },
+      },
+      animation: {
+        'slide-in-menu': 'slide-in-menu .5s ease-in-out forwards',
+        'slide-out-menu': 'slide-out-menu .5s ease-in-out forwards',
       }
     },
     backgroundColor: theme => ({

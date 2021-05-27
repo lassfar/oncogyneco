@@ -2,6 +2,7 @@
 import Title from './../../UI/article/Title';
 import Paragraph from './../../UI/article/Paragraph';
 import SpecialityImage from './SpecialityImage';
+import Subtitle from './../../UI/article/Subtitle';
 
 
 const SpecialityDetails = () => {
@@ -14,34 +15,53 @@ const SpecialityDetails = () => {
           La chirurgie gynécologique et mammaire s’intéresse aux organes génitaux de la femme : vulve, vagin, utérus et ses annexes (ovaires et trompes), seins.
         </Paragraph>
         <Paragraph>
-          Elle consiste à pratiquer des interventions dans le cadre de la prise en charge de plusieurs affections, que ce soit pour une tumeur bénigne (kyste au sein, endométriose…) ou cancéreuse (sein, utérus, ovaires), en chirurgie fonctionnelle uro-gynécologique ou pelvienne ou bien Contraception définitive . 
+          Elle consiste à pratiquer des interventions dans le cadre de la prise en charge de plusieurs affections, essentiellement dans la pathologie onco-gynécologique.
         </Paragraph>
         <Paragraph>
-          En cas de cancer, La chirurgie oncologique représente la méthode la plus ancienne de traitement du cancer et la plus courante. Elle permet L'enlèvement des tumeurs et des tissus cancéreux .
+          Le service d’onco-gynécologie pour détection précoce des cancers et traitement chirurgicale des cancers gynéco-mammaire assures plusieurs activités :
         </Paragraph>
-        <Paragraph addClass="font-semibold" margins="mb-2">
-          Types d'interventions chirurgicales :
-        </Paragraph>
+
+        <Subtitle addClass="font-semibold" margins="mb-2">
+          Consultation onco-gynécologie :
+        </Subtitle>
         <ul className="ml-4 mb-6">
-          <li>- Myomectomie (polymyomectomie)</li>
-          <li>- Conisation</li>
-          <li>- Hystérectomie total ou subtotal</li>
-          <li>- Cure de prolapsus</li>
-          <li>- Chirurgie des annexes</li>
-          <li>- Hysteroscopie</li>
-          <li>- Tumorectomie / mastectomie avec ou sans curage ganglionnaire axillaire</li>
-          <li>- Ganglion sentinelle</li>
+          <li>- Dépistage du cancer du sein et du col</li>
+          <li>- Consultation colposcopie (mardi-jeudi)</li>
+          <li>- Consultation orthogénie (mercredi)</li>
+          <li>- Consultation d’oncofértilité</li>
+          <li>- Consultation onco-gynécologie (chaque jours)</li>
+          <li>- Consultation de soutien psychologique</li>
         </ul>
-        <Paragraph addClass="font-semibold" margins="mb-2">
-          Techniques :
+
+
+        <Subtitle addClass="font-semibold" margins="mb-2">
+          Types d'interventions chirurgicales :
+        </Subtitle>
+        <Paragraph margins="mb-2">
+          <span className="font-semibold">-Chirurgie du sein</span> : traitement conservateur , oncoplasti.
         </Paragraph>
-        <ul className="ml-4 mb-4">
-          <li>- Chirurgie ouverte</li>
-          <li>- Endoscopique</li>
+        <Paragraph margins="mb-2">
+          <span className="font-semibold">-Chirurgie radicale</span> avec une reconstruction mammaire immédiate et différée par prothése/lambeau.
+        </Paragraph>
+        <Paragraph margins="mb-2">
+          <span className="font-semibold">-Chirurgie gynécologique</span> conventionnelle et laparoscopie
+        </Paragraph>
+        <ul className="ml-4 mb-2">
+          <li>- Cancer du col</li>
+          <li>- Cancer de l’ovaire</li>
+          <li>- Cancer de l’endomètre</li>
+          <li>- Cancer de la vulve</li>
         </ul>
         <Paragraph>
-          La chirurgie gynécologique est actuellement de plus en plus moins invasive , diminuant au minimum les cicatrices et en améliorant la récupération post-opératoire .
+          <span className="font-semibold">-Chirurgie gynécologique</span> bénigne ( Prolapsus , myomectomie ……. ).
         </Paragraph>
+
+        <Subtitle>- STAFFS :</Subtitle>
+        <ul className="mb-4 ml-3">
+          <li><strong>MARDI :</strong> activité scientifique et étude de dossier</li>
+          <li><strong>JEUDI :</strong> programme opératoire</li>
+          <li><strong>VENDREDI :</strong> Réunion de concertation pluridisciplinaire</li>
+        </ul>
       </article>
 
       <div className="xl:w-1/12 lg:w-1/12 md:w-1/12 xl:flex lg:flex md:flex hidden"></div>
@@ -62,7 +82,7 @@ const SpecialityDetails = () => {
       <article className="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full">
         <Title>Oncologie Médical</Title>
         <Paragraph>
-          L'oncologie est la spécialité médicale qui se consacre au diagnostic, au suivi et au traitement Médicamenteux  patients atteints de cancers.
+          L'oncologie est la spécialité médicale qui se consacre au diagnostic, au suivi et au traitement Médicamenteux des patients atteints de cancers.
         </Paragraph>
         <Paragraph>
           Elle Assure des soins multidisciplinaires offerts aux patients atteints d'un cancer .

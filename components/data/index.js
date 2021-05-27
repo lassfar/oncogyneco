@@ -30,7 +30,7 @@ export const footerLinkList = [
   {
     title: "Contact Infos",
     links: [
-      { to: "#", icon: aiIcon.AiOutlinePhone, text: "06 66 00 00 00" },
+      // { to: "#", icon: aiIcon.AiOutlinePhone, text: "06 66 00 00 00" },
       { to: "https://www.google.com/maps/place/University+Hospital+Center+Ibn+Rochd+-+Casablanca/@33.579503,-7.621112,14z/data=!4m9!1m2!2m1!1sCentre+Hospitalier+Universitaire+Ibn+Rochd+-+Casablanca!3m5!1s0xda7cd48273dd637:0xa82eac514540569f!8m2!3d33.581258!4d-7.6197661!15sCjdDZW50cmUgSG9zcGl0YWxpZXIgVW5pdmVyc2l0YWlyZSBJYm4gUm9jaGQgLSBDYXNhYmxhbmNhkgEIaG9zcGl0YWw", icon: hiIcon.HiOutlineLocationMarker, text: "Centre Hospitalier Universitaire Ibn Rochd - Casablanca" },
       { to: "mailto:oncogyneco.chucasa@gmail.com", icon: hiIcon.HiOutlineMail, text: "oncogyneco.chucasa@gmail.com" }
     ]
@@ -38,7 +38,7 @@ export const footerLinkList = [
 ];
 
 export const contactInfos = [
-  { title: 'Téléphone', to: "tel:0600000000", icon: aiIcon.AiOutlinePhone, text: "06 66 00 00 00" },
+  // { title: 'Téléphone', to: "tel:0600000000", icon: aiIcon.AiOutlinePhone, text: "06 66 00 00 00" },
   { title: 'Location', to: "#", icon: hiIcon.HiOutlineLocationMarker, text: `Centre Hospitalier Universitaire Ibn Rochd - Casablanca` },
   { title: 'Email', to: "mailto:oncogyneco.chucasa@gmail.com", icon: hiIcon.HiOutlineMail, text: "oncogyneco.chucasa@gmail.com" }
 ];

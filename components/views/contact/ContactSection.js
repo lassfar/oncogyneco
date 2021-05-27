@@ -15,10 +15,10 @@ const ContactSection = () => {
           <h2 className="xl:text-3xl lg:text-2xl md:text-2xl text-xl text-secondary font-bold mb-6">
             Informations de Contact
           </h2>
-          <a href="tel:0600000060" className="flex items-center my-4">
+          {/* <a href="tel:0600000060" className="flex items-center my-4">
             <DynamicIcon iconName={cgIcon.CgPhone} iconClass="mr-4" />
             <span>+(212) 6-00 00 00 60</span>
-          </a>
+          </a> */}
           <a href="mailto:oncogyneco.chucasa@gmail.com" className="flex items-center my-4">
             <DynamicIcon iconName={cgIcon.CgMail} iconClass="mr-4" />
             <span>oncogyneco.chucasa@gmail.com</span>

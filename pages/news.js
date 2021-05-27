@@ -8,7 +8,7 @@ export default function news() {
   return (
     <>
       <Head>
-        <title>Actualités | Centre Mohammed VI de traitement des cancers</title>
+        <title>Actualités | Centre mohammed VI pour le traitement des cancers</title>
         <meta name="description" content="Actualités" />
         <link rel="icon" href="/images/logo.ico" />
       </Head>
