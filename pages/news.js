@@ -8,9 +8,10 @@ export default function news() {
   return (
     <>
       <Head>
-        <title>Actualités | Centre mohammed VI pour le traitement des cancers</title>
-        <meta name="description" content="Actualités" />
+        <meta name="keyword" content="Oncogyneco Casablanca, Gynécologie Casablanca, Oncologie Casablanca,Centre Mohammed 6 Actualités, CHU Ibn Rochd Articles, Traitement des Cancers Ibn Rochd Nouveautés, Cancer Ibn Rochd News, Page Actualités " />
+        <meta name="description" content="Centre Mohammed 6 pour traitement du cancer, Articles et Actualités" />
         <link rel="icon" href="/images/logo.ico" />
+        <title>Actualités | Centre mohammed VI pour le traitement des cancers</title>
       </Head>
 
       <AppLayout>

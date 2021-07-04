@@ -15,7 +15,7 @@ const PresentJumbo = () => {
 
       {/* IMAGE SECTION */}
       <div className="flex xl:w-6/12 lg:w-6/12 w-full xl:my-12 lg:my-12 md:my-8 my-4">
-        <img className="inline-flex object-contain" src="/images/design/6.png" width="100%" height="auto" />
+        <img className="inline-flex object-contain" src="/images/design/6.png" width="100%" height="auto" alt="Qui somme-nous" />
       </div>
       
     </div>

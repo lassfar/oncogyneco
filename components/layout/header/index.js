@@ -35,7 +35,12 @@ const AppHeader = () => {
     <nav className="relative flex items-center flex-wrap xl:justify-end lg:justify-end bg-primary shadow-sm px-6">
       
       <div className="flex justify-between items-center xl:absolute lg:absolute xl:w-2/12 lg:w-2/12 w-full xl:top-0 lg:top-0 xl:left-6 lg:left-6 xl:pr-0 lg:pr-0 pr-6 z-50 bg-white border-b-4 border-fourth xl:shadow lg:shadow">
-        <Image src="/images/logo.svg" className="object-contain bg-transparent inline-flex" width="auto" height="180" alt="OncoGyneco CHU CASA LOGO" />
+        <Image
+          src="/images/logo.svg"
+          className="object-contain bg-transparent inline-flex"
+          width="auto" height="180"
+          alt="OncoGyneco CHU CASA LOGO"
+        />
         <div className="xl:hidden lg:hidden flex bottom-0 right-6">
           <a href="#" onClick={openMenu}>
             <Button iconName={cgIcon.CgMenu} ringColor="ring-secondary" addClass="bg-secondary text-white" />

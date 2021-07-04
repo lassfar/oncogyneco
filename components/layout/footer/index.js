@@ -11,7 +11,7 @@ export default function AppFooter() {
   return (
     <footer className="relative bg-primary text-white xl:px-12 lg:px-10 md:px-10 px-8 py-16">
       
-      <h1 className="text-2xl font-semibold border-l-4 border-white pl-4 mb-4">Centre Mohammed VI de traitement du cancer</h1>
+      <h1 className="text-2xl font-semibold border-l-4 border-white pl-4 mb-4">CENTRE MOHAMMED VI POUR LE TRAITEMENT DES CANCERS</h1>
 
       <div className="flex flex-wrap">
         <div className="flex flex-wrap xl:w-6/12 lg:w-6/12 md:w-6/12 w-full">

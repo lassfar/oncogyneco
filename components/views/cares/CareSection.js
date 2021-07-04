@@ -13,7 +13,7 @@ const CareSection = () => {
   return (
     <SectionLayout subtitle="OFFRE DE SOINS DIVÉRSIFIÉ ET ACCOMPAGNEMENT COMPLET">
 
-      <div className="flex flex-row flex-wrap justify-between w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-full gap-3">
         {careTypes.map((item, idx) => <CareCard item={item} key={idx} /> )}
       </div>
       
