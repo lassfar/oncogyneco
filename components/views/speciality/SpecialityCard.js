@@ -6,14 +6,14 @@ import Button from './../../UI/Button';
 const SpecialityCard = ({ item }) => {
   return (
     <div
-      className="xl:w-6/12 lg:w-6/12 md:xl:w-6/12 h-96 sm:w-full w-full bg-cover bg-no-repeat"
-      style={{backgroundImage: `url('${item.imgUrl}')`}}
+      className="h-96 w-full bg-cover bg-no-repeat"
+      style={{backgroundImage: `url('${item.imgUrl}')`, backgroundPosition: 'center 80%'}}
     >
-      <div className="flex flex-col w-full h-full justify-end text-white bg-black bg-opacity-40 hover:bg-opacity-20 transition-all delay-100 ease-in-out p-6">
+      <div className="flex flex-col w-full h-full justify-end text-white bg-black bg-opacity-50 backdrop-filter backdrop-blur-sm hover:backdrop-blur-0 hover:bg-opacity-40 transition-all delay-100 ease-in-out p-6">
         <h3 className="text-2xl font-bold uppercase mb-6">
           {item.title}
         </h3>
-        <p className="mb-6">{item.desc}</p>
+        <p className="mb-6 lg:w-2/3 w-full">{item.desc}</p>
         <Link href="/speciality">
           <a>
             <Button

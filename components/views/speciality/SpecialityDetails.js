@@ -3,6 +3,7 @@ import Title from './../../UI/article/Title';
 import Paragraph from './../../UI/article/Paragraph';
 import SpecialityImage from './SpecialityImage';
 import Subtitle from './../../UI/article/Subtitle';
+import Link from 'next/link';
 
 
 const SpecialityDetails = () => {
@@ -12,13 +13,16 @@ const SpecialityDetails = () => {
       <article className="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full">
         <Title>Chirurgie Gynécologique</Title>
         <Paragraph>
-          La chirurgie gynécologique et mammaire s’intéresse aux organes génitaux de la femme : vulve, vagin, utérus et ses annexes (ovaires et trompes), seins.
+          la chirurgie gynécologique et mammaire s’intéresse aux organes génitaux de la
+          femme : vulve, vagin, utérus et ses annexes (ovaires et trompes) et seins.
         </Paragraph>
         <Paragraph>
-          Elle consiste à pratiquer des interventions dans le cadre de la prise en charge de plusieurs affections, essentiellement dans la pathologie onco-gynécologique.
+          Elle consiste à pratiquer des interventions dans le cadre de la prise en charge de
+          plusieurs affections, essentiellement dans la pathologie oncogynécologique et mammaire.
         </Paragraph>
         <Paragraph>
-          Le service d’onco-gynécologie pour détection précoce des cancers et traitement chirurgicale des cancers gynéco-mammaire assures plusieurs activités :
+          Le service d’onco-gynécologie pour détection précoce des cancers et traitement
+          chirurgicale des cancers gynéco-mammaire assures plusieurs activités :
         </Paragraph>
 
         <Subtitle addClass="font-semibold" margins="mb-2">
@@ -26,42 +30,75 @@ const SpecialityDetails = () => {
         </Subtitle>
         <ul className="ml-4 mb-6">
           <li>- Dépistage du cancer du sein et du col</li>
-          <li>- Consultation colposcopie (mardi-jeudi)</li>
+          <li>- Consultation colposcopique (mardi-jeudi)</li>
           <li>- Consultation orthogénie (mercredi)</li>
           <li>- Consultation d’oncofértilité</li>
-          <li>- Consultation onco-gynécologie (chaque jours)</li>
-          <li>- Consultation de soutien psychologique</li>
+          <li>- Consultation onco-gynécologie</li>
+          <li>- Consultation de soutien psychologique (vendredi)</li>
         </ul>
 
 
         <Subtitle addClass="font-semibold" margins="mb-2">
           Types d'interventions chirurgicales :
         </Subtitle>
-        <Paragraph margins="mb-2">
-          <span className="font-semibold">-Chirurgie du sein</span> : traitement conservateur , oncoplasti.
-        </Paragraph>
-        <Paragraph margins="mb-2">
-          <span className="font-semibold">-Chirurgie radicale</span> avec une reconstruction mammaire immédiate et différée par prothése/lambeau.
-        </Paragraph>
-        <Paragraph margins="mb-2">
-          <span className="font-semibold">-Chirurgie gynécologique</span> conventionnelle et laparoscopie
-        </Paragraph>
-        <ul className="ml-4 mb-2">
-          <li>- Cancer du col</li>
-          <li>- Cancer de l’ovaire</li>
-          <li>- Cancer de l’endomètre</li>
-          <li>- Cancer de la vulve</li>
+        <p className="font-bold text-secondary mb-2">
+          Chirurgie du sein
+        </p>
+        
+        <ul className="ml-4 mb-6">
+          <li>• Traitement conservateur/oncoplastie.</li>
+          <li>
+            • Mastectomie avec reconstruction mammaire immédiate ou différée par
+            prothése/lambeau cutanéo-musculaire.
+          </li>
         </ul>
-        <Paragraph>
-          <span className="font-semibold">-Chirurgie gynécologique</span> bénigne ( Prolapsus , myomectomie ……. ).
-        </Paragraph>
+        <p className="font-bold text-secondary mb-2">
+          Chirurgie gynécologique conventionnelle et laparoscopie :
+        </p>
+        <ul className="ml-4 mb-6">
+          <li className="text-primary underline">
+            <Link href={"/cares/col"}>
+              <a>
+                {"• Cancer du col"}
+              </a>
+            </Link>
+          </li>
+          <li className="text-primary underline">
+            <Link href={"/cares/ovaire"}>
+              <a>
+                {"• Cancer de l’ovaire"}
+              </a>
+            </Link>
+          </li>
+          <li className="text-primary underline">
+            <Link href={"/cares/endometre"}>
+              <a>
+                {"• Cancer de l’endomètre"}
+              </a>
+            </Link>
+          </li>
+          <li className="text-primary underline">
+            <Link href={"/cares/vulve"}>
+              <a>
+                {"• Cancer de la vulve"}
+              </a>
+            </Link>
+          </li>
+        </ul>
+        <p className="font-bold mb-6">
+          Chirurgie gynécologique bénigne.
+        </p>
 
-        <Subtitle>- STAFFS :</Subtitle>
-        <ul className="mb-4 ml-3">
-          <li><strong>MARDI :</strong> activité scientifique et étude de dossier</li>
-          <li><strong>JEUDI :</strong> programme opératoire</li>
-          <li><strong>VENDREDI :</strong> Réunion de concertation pluridisciplinaire</li>
-        </ul>
+        <Subtitle>À savoir :</Subtitle>
+        <Paragraph addClass={"font-bold"}>
+          le choix du traitement est discuté lors d’une réunion de concertation
+          pluridisciplinaire (RCP) rassemblant des médecins de spécialités
+          différentes: chirurgien gynécologique, oncologue, radiothérapeute,
+          radiologue, anatomopathologiste….
+        </Paragraph>
+        <Paragraph addClass={"font-bold"}>
+          Ensemble, ils établissent une proposition de traitements , qui est ensuite expliquée et discutée avec la patiente .
+        </Paragraph>
       </article>
 
       <div className="xl:w-1/12 lg:w-1/12 md:w-1/12 xl:flex lg:flex md:flex hidden"></div>
@@ -74,34 +111,6 @@ const SpecialityDetails = () => {
       </div>
       {/* ########################################## */}
 
-      
-      <SpecialityImage imageSrc="/images/common/8.jpg" />
-
-      <div className="xl:w-1/12 lg:w-1/12 md:w-1/12 xl:flex lg:flex md:flex hidden"></div>
-
-      <article className="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full">
-        <Title>Oncologie Médical</Title>
-        <Paragraph>
-          L'oncologie est la spécialité médicale qui se consacre au diagnostic, au suivi et au traitement Médicamenteux des patients atteints de cancers.
-        </Paragraph>
-        <Paragraph>
-          Elle Assure des soins multidisciplinaires offerts aux patients atteints d'un cancer .
-        </Paragraph>
-        <Paragraph addClass="font-semibold" margins="mb-2">
-          Les différents modes de traitement :
-        </Paragraph>
-        <ul className="ml-2 mb-4">
-          <li>- La chimiothérapie</li>
-          <li>- L’immunothérapie</li>
-          <li>- L’hormonothérapie</li>
-          <li>- Les biothérapies ou thérapeutiques ciblées</li>
-          <li>- Thérapies orales</li>
-        </ul>
-        <Paragraph>
-          Elle s’occupe aussi de tout les autres problèmes liés au cancer ou aux effets indésirables des traitements : douleur, fatigue, problèmes nutritionnels, digestifs, respiratoires et génito-urinaires, moteurs, odontologiques... mais aussi sociaux et psychologiques
-        </Paragraph>
-
-      </article>
 
     </section>
   )

@@ -8,12 +8,6 @@ export const specialityList = [
     imgUrl: '/images/common/7.jpg',
     link: '/speciality'
   },
-  {
-    title: 'oncologie médical',
-    desc: `L'oncologie est la spécialité médicale qui se consacre au diagnostic, au suivi et au traitement Médicamenteux patients atteints de cancers.`,
-    imgUrl: '/images/common/8.jpg',
-    link: '/speciality'
-  },
 ];
 
 // FOOTER
@@ -49,32 +43,36 @@ export const careTypeList = [
     id: 'careCard1',
     title: 'Sein',
     desc: `Le cancer du sein correspond à une prolifération anormale des cellules dans la glande mammaire.`,
-
-    imgUrl: '/icons/BREAST.png'
+    imgUrl: '/icons/BREAST.png',
+    link: '/cares/cancers/sein'
   },
   {
     id: 'careCard2',
     title: 'Col de l\'utérus',
     desc: `Le cancer du col de l'utérus est une tumeur localisée au niveau de la muqueuse utérine`,
-    imgUrl: '/icons/UTERUS.png'
+    imgUrl: '/icons/UTERUS.png',
+    link: '/cares/cancers/uterus'
   },
   {
     id: 'careCard3',
     title: 'Endometre',
     desc: `L’endomètre est le tissu qui tapisse la paroi intérieure du corps de l’utérus`,
-    imgUrl: '/icons/UTERUS.png'
+    imgUrl: '/icons/UTERUS.png',
+    link: '/cares/cancers/endometre'
   },
   {
     id: 'careCard4',
     title: 'Ovaire',
     desc: `il prend naissance dans les cellules de l’un ou des deux ovaires.`, 
-    imgUrl: '/icons/UTERUS.png'
+    imgUrl: '/icons/UTERUS.png',
+    link: '/cares/cancers/ovaire'
   },
   {
     id: 'careCard5',
     title: 'Vulve',
     desc: `Le cancer de la vulve est une tumeur maligne située généralement sur la face interne des grandes lèvres ou sur les petites lèvres. La vulve est la partie apparente externe des organes génitaux de la femme. Le vagin en est le prolongement. Le cancer de la vulve n'est pas le plus fréquent des cancers gynécologiques.`,
-    imgUrl: '/icons/RIBBON.png'
+    imgUrl: '/icons/RIBBON.png',
+    link: '/cares/cancers/vulve'
   },
 ];
 

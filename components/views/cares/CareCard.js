@@ -1,5 +1,5 @@
 
-import Button from './../../UI/Button'
+import RouteLink from './../../UI/RouteLink'
 import * as cgIcon from 'react-icons/cg'
 
 
@@ -28,9 +28,10 @@ const CareCard = ({ item }) => {
       <p className="mb-6">
         {item.desc.substring(0, 50).concat('...')}
       </p>
-      <Button
+      <RouteLink
+        link={item.link}
         btnSize="small"
-        title="Lire plus"
+        title="Voir détails"
         bgColor="bg-secondary"
         textColor="text-white"
         ringColor="ring-secondary-light"

@@ -11,7 +11,7 @@ const SpecialitySection = () => {
 
   return (
     <SectionLayout title="Nos Specialités">
-      <div className="flex flex-wrap w-full">
+      <div className="grid auto-cols-auto w-full">
         {specialities.map((item, idx) => <SpecialityCard item={item} key={idx} /> )}
       </div>
     </SectionLayout>

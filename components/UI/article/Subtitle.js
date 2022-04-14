@@ -1,6 +1,6 @@
-const Subtitle = ({ children }) => {
+const Subtitle = ({ children, customClass }) => {
   return (
-    <div className="xl:text-2xl lg:text-2xl md:text-xl text-lg font-semibold text-primary mb-4">
+    <div className={`xl:text-2xl lg:text-2xl md:text-xl text-lg font-semibold mb-4 ${customClass || 'text-primary'}`}>
       {children}
     </div>
   )

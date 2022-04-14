@@ -20,13 +20,14 @@ const HomeJumbo = () => {
               <span className="xl:text-4xl lg:text-4xl md:text-3xl text-3xl">pour le traitement des cancers</span>
             </h1>
             <p className="text-sm sm:text-sm md:text-base lg:text-base xl:text-base mb-8">
-              Le service onco-gynécologie du Centre Mohamed IV pour le traitement du cancer du CHU ibn rochd
-              offre une prise en charge globale médicale et chirurgicale de la plupart des pathologies gynécologiques et mammaire.
+              Le service onco-gynécologie du Centre Mohamed IV pour le traitement du
+              cancer du CHU ibn rochd offre une prise en charge globale médicale et
+              chirurgicale de la plupart des pathologies gynécologiques et mammaire.
             </p>
             <Link href="/presentation">
               <a>
                 <Button
-                  title="Lire plus"
+                  title="Lire la suite"
                   bgColor="bg-secondary"
                   textColor="text-white"
                   ringColor="ring-secondary-light"

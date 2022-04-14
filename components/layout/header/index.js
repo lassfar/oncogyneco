@@ -32,7 +32,7 @@ const AppHeader = () => {
   }
 
   return (
-    <nav className="relative flex items-center flex-wrap xl:justify-end lg:justify-end bg-primary shadow-sm px-6">
+    <nav className="relative flex items-center flex-wrap xl:justify-end lg:justify-end bg-primary shadow-sm px-6 z-50">
       
       <div className="flex justify-between items-center xl:absolute lg:absolute xl:w-2/12 lg:w-2/12 w-full xl:top-0 lg:top-0 xl:left-6 lg:left-6 xl:pr-0 lg:pr-0 pr-6 z-50 bg-white border-b-4 border-fourth xl:shadow lg:shadow">
         <Image

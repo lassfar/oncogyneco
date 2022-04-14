@@ -14,10 +14,7 @@ export default function index() {
       </Head>
     
       <AppLayout>
-        <JumboLayout title="OFFRE DE SOINS" subtitle=" DIVÉRSIFIÉ ET ACCOMPAGNEMENT COMPLET" image="/images/design/3.png">
-
-        </JumboLayout>
-        
+        <JumboLayout title="OFFRE DE SOINS" subtitle="DIVÉRSIFIÉ ET ACCOMPAGNEMENT COMPLET" image="/images/design/3.png" />        
       </AppLayout>
     </>
   )
