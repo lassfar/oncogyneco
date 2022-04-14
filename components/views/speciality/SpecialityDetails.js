@@ -57,35 +57,35 @@ const SpecialityDetails = () => {
         </p>
         <ul className="ml-4 mb-6">
           <li className="text-primary underline">
-            <Link href={"/cares/col"}>
+            <Link href={"/cares/cancers/uterus"}>
               <a>
                 {"• Cancer du col"}
               </a>
             </Link>
           </li>
           <li className="text-primary underline">
-            <Link href={"/cares/ovaire"}>
+            <Link href={"/cares/cancers/ovaire"}>
               <a>
                 {"• Cancer de l’ovaire"}
               </a>
             </Link>
           </li>
           <li className="text-primary underline">
-            <Link href={"/cares/endometre"}>
+            <Link href={"/cares/cancers/endometre"}>
               <a>
                 {"• Cancer de l’endomètre"}
               </a>
             </Link>
           </li>
           <li className="text-primary underline">
-            <Link href={"/cares/vulve"}>
+            <Link href={"/cares/cancers/vulve"}>
               <a>
                 {"• Cancer de la vulve"}
               </a>
             </Link>
           </li>
         </ul>
-        <p className="font-bold mb-6">
+        <p className="text-secondary font-bold mb-6">
           Chirurgie gynécologique bénigne.
         </p>
 
