@@ -17,7 +17,7 @@ const HeaderMobile = () => {
   const [links] = useState([
     { link: '/', text: 'Accueil' },
     { link: '/presentation', text: 'Qui somme-nous' },
-    { link: '/speciality', text: 'Nos Spécialités' },
+    { link: '/speciality', text: 'Notre Spécialité' },
     { link: '/news', text: 'Actualités' },
     { link: '/contact', text: 'Contact' },
   ]);

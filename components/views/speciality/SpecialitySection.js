@@ -10,7 +10,7 @@ const SpecialitySection = () => {
   const [specialities] = useState(specialityList);
 
   return (
-    <SectionLayout title="Nos Specialités">
+    <SectionLayout title="Notre Spécialité">
       <div className="grid auto-cols-auto w-full">
         {specialities.map((item, idx) => <SpecialityCard item={item} key={idx} /> )}
       </div>

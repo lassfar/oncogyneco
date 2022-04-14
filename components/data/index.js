@@ -16,7 +16,7 @@ export const footerLinkList = [
     title: "Plan du site",
     links: [
       { to: "/news", icon: aiIcon.AiOutlineLink, text: "Actualités" },
-      { to: "/speciality", icon: aiIcon.AiOutlineLink, text: "Nos spécialités" },
+      { to: "/speciality", icon: aiIcon.AiOutlineLink, text: "Notre Spécialité" },
       { to: "/presentation", icon: aiIcon.AiOutlineLink, text: "Qui somme-nous" },
       { to: "/contact", icon: aiIcon.AiOutlineLink, text: "Contacts" },
     ]

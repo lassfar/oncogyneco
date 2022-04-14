@@ -100,7 +100,6 @@ const PresentDetails = () => {
 
         {/* imgs section */}
         <div className="relative xl:w-4/12 lg:w-4/12 xl:flex lg:flex flex-wrap hidden">
-
           <div className="relative">
             <div className="z-30 absolute top-0 left-0 transform skew-y-6 -skew-x-6 bg-primary bg-opacity-40 w-full h-80 rounded-3xl shadow-lg">
               {/* BG EFFECT */}

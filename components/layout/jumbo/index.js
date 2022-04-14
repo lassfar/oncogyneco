@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const JumboLayout = ({ children, title, subtitle, image }) => {
   return (
-    <div className="w-full xl:p-14 lg:py-14 md:py-10 sm:py-8 py-8 px-6 md:px-8 lg:px-10 bg-secondary">
+    <div className="bg-secondary w-full xl:py-14 lg:py-12 md:py-10 sm:py-8 py-8 px-6 md:px-8 lg:px-10">
       {/* TITLES SECTION */}
       <div className="container mx-auto flex flex-wrap items-center">
         <div className="xl:w-6/12 lg:w-6/12 w-full xl:my-12 lg:my-12 md:my-8 my-4">
