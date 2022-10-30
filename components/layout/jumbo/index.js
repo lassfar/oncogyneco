@@ -19,7 +19,10 @@ const JumboLayout = ({ children, title, subtitle, image }) => {
 
         {/* IMAGE SECTION */}
         <div className="relative flex xl:w-6/12 lg:w-6/12 w-full xl:my-12 lg:my-12 md:my-8 my-4">
-          <img className="relative object-contain h-72 max-h-80 w-full" loading="lazy" src={image} width="100%" height="600" alt={title} />
+          {/* <img className="relative object-contain h-72 max-h-80 w-full" loading="lazy" src={image} width="100%" height="600" alt={title} /> */}
+          <div className="relative h-80 max-h-80 w-full">
+            <Image className="w-full h-full object-contain" loading="lazy" layout="fill" width={300} height={300} src={image} alt={title} />
+          </div>
         </div>
       </div>
       

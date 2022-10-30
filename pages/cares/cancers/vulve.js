@@ -14,7 +14,7 @@ export default function VulvePage() {
         <meta name="keyword" content="Oncogyneco Casablanca, Gynécologie Casablanca, Oncologie Casablanca, Spécialités du Centre Mohammed 6, Spécialité CHU Ibn Rochd, Traitement des Cancers Ibn Rochd, Cancer Ibn Rochd, Page Spécialités" />
         <meta name="description" content="Envoyez un message au service onco-gynécologie du Centre Mohammed IV pour le traitement du cancer." />
         <link rel="icon" href="/images/logo.ico" />
-        <title>Cancer de Vulve | CENTRE MOHAMMED VI POUR LE TRAITEMENT DES CANCERS</title>
+        <title>Cancer de Vulve | CENTRE D'ENCOLOGIE MOHAMMED 6 POUR LE TRAITEMENT DES CANCERS</title>
       </Head>
 
       <AppLayout>

@@ -8,7 +8,7 @@ const NewsSection = () => {
 
   return (
     <SectionLayout title="Actualités">
-      <div className="flex flex-wrap w-full">
+      <div className="flex flex-wrap w-full" role="list">
         
         {blogList.map((item, idx) => <NewsCard item={item} key={idx} /> )}
       </div>

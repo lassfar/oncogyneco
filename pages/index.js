@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <meta name="keyword" content="Centre d'oncologie, Oncogyneco Casablanca, Gynécologie Casablanca, Oncologie Casablanca, Centre Mohammed 6, CHU Ibn Rochd, Traitement des Cancers Ibn Rochd, Cancer Ibn Rochd, Page d'accueil " />
-        <meta name="description" content="Centre d'oncologie Mohammed IV pour le traitement du cancer du CHU ibn rochd offre une prise en charge globale médicale et chirurgicale de la plupart des pathologies gynécologiques et mammaire." />
+        <meta name="description" content="Centre d'oncologie Mohammed 6 pour le traitement du cancer du CHU ibn rochd offre une prise en charge globale médicale et chirurgicale de la plupart des pathologies gynécologiques et mammaire. Hopital D'Oncologie Mohamed 6. Centre D'Oncologie" />
         <link rel="icon" href="/images/logo.ico" />
         <title>Accueil | Centre mohammed VI pour le traitement des cancers</title>
       </Head>

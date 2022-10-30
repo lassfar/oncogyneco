@@ -10,11 +10,9 @@ const FooterLinkGroup = ({item}) => {
       <h2 className="text-xl font-medium mb-4">{item.title}</h2>
       <div className="flex flex-col">
         {item.links.map((elem, idx2) => (
-          <Link href={elem.to} key={idx2*.77}>
-            <a className="flex flex-nowrap my-1">
-              <DynamicIcon iconName={elem.icon} />
-              <span className="font-light flex-auto ml-2">{ elem.text }</span>
-            </a>
+          <Link href={elem.to} key={idx2*.77} className="flex flex-nowrap my-1">
+            <DynamicIcon iconName={elem.icon} />
+            <span className="font-light flex-auto ml-2">{ elem.text }</span>
           </Link>
         ))}
       </div>

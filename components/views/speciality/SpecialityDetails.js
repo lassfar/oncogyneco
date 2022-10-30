@@ -60,30 +60,22 @@ const SpecialityDetails = () => {
           <ul className="ml-4 mb-6">
             <li className="text-primary underline">
               <Link href={"/cares/cancers/uterus"}>
-                <a>
-                  {"• Cancer du col"}
-                </a>
+                {"• Cancer du col"}
               </Link>
             </li>
             <li className="text-primary underline">
               <Link href={"/cares/cancers/ovaire"}>
-                <a>
-                  {"• Cancer de l’ovaire"}
-                </a>
+                {"• Cancer de l’ovaire"}
               </Link>
             </li>
             <li className="text-primary underline">
               <Link href={"/cares/cancers/endometre"}>
-                <a>
-                  {"• Cancer de l’endomètre"}
-                </a>
+                {"• Cancer de l’endomètre"}
               </Link>
             </li>
             <li className="text-primary underline">
               <Link href={"/cares/cancers/vulve"}>
-                <a>
-                  {"• Cancer de la vulve"}
-                </a>
+                {"• Cancer de la vulve"}
               </Link>
             </li>
           </ul>

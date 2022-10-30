@@ -11,7 +11,7 @@ const SpecialitySection = () => {
 
   return (
     <SectionLayout title="Notre Spécialité">
-      <div className="grid auto-cols-auto w-full">
+      <div className="grid auto-cols-auto w-full" role="list">
         {specialities.map((item, idx) => <SpecialityCard item={item} key={idx} /> )}
       </div>
     </SectionLayout>

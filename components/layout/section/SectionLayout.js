@@ -3,7 +3,7 @@
 
 const SectionLayout = ({children, title, subtitle}) => {
   return (
-    <section className="container mx-auto relative w-full xl:py-14 lg:py-12 md:py-10 sm:py-8 py-8 px-6 md:px-8 lg:px-10">
+    <section className="container mx-auto relative w-full xl:py-14 lg:py-12 md:py-10 sm:py-8 py-8 px-6 md:px-8 lg:px-10" role="region" aria-label={`${title || subtitle}.`}>
       {(title || subtitle) &&
         <div className="w-full mb-10">
           {title && <h1 className="xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-bold uppercase text-secondary mb-6">{title}</h1>}

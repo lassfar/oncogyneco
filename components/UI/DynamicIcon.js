@@ -9,7 +9,8 @@ const DynamicIcon = ({iconName, iconSize, iconClass}) => {
         minHeight:  iconSize || "1.5rem",
         maxHeight:  iconSize || "1.5rem"
       },
-      className: iconClass
+      className: iconClass,
+      "aria-hidden": true,
     })
   )
 }
