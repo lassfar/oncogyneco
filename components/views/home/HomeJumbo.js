@@ -12,6 +12,8 @@ const HomeJumbo = () => {
         backgroundImage: "url('/images/common/jumbo-cover.jpg')",
         height: "90vh",
       }}
+      role="region"
+      aria-label="principale"
     >
       <div className="flex min-w-full h-full bg-black bg-opacity-40 backdrop-filter backdrop-blur-sm py-8">
         <div className="flex items-center w-full h-full text-white xl:p-16 lg:p-12 p-6">
