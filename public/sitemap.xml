@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/presentation</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/speciality</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/news</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/contact</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/cares/cancers/sein</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/cares/cancers/uterus</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/cares/cancers/endometre</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/cares/cancers/ovaire</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://oncogyneco-chucasa.ma/cares/cancers/vulve</loc>
+    <lastmod>2022-11-01T15:09:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+
+</urlset>
