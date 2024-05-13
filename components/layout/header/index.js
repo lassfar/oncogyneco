@@ -47,7 +47,7 @@ const AppHeader = () => {
     >
       <div className="flex justify-between items-center xl:absolute lg:absolute xl:w-2/12 lg:w-2/12 w-full xl:top-0 lg:top-0 xl:left-6 lg:left-6 xl:pr-0 lg:pr-0 pr-6 z-50 bg-white border-b-4 border-fourth xl:shadow lg:shadow">
         <Image
-          src="/images/logo.svg"
+          src="/images/logo-new.svg"
           className="object-contain bg-transparent inline-flex"
           width="250"
           height="180"
@@ -79,7 +79,7 @@ const AppHeader = () => {
                   ? "border-fourth text-fourth"
                   : "border-transparent"
               } transition delay-100 rounded px-4 py-6`}
-              ariaLabel={item.text}
+              aria-label={item.text}
             >
               {item.text}
             </Link>
@@ -87,8 +87,11 @@ const AppHeader = () => {
         ))}
         <Link
           href="/contact"
-          className={`${EButtonVariant.secondary} ${EButtonSize.normal} ${pathName === "/contact" && "border-2 border-fourth"}`}
-          role="menuitem" ariaLabel="contact"
+          className={`${EButtonVariant.secondary} ${EButtonSize.normal} ${
+            pathName === "/contact" && "border-2 border-fourth"
+          }`}
+          role="menuitem"
+          aria-label="contact"
         >
           <DynamicIcon iconName={CgPhone} iconClass={"mr-2"} />
           {"Contact"}
